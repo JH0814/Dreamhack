@@ -2,7 +2,7 @@ from pwn import *
 from Crypto.Util.number import *
 import math
 
-con = remote("host8.dreamhack.games", 10727)
+con = remote(ADDRESS, PORT)
 
 l_d = []
 l_n = []
